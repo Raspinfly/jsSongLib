@@ -1,0 +1,38 @@
+{
+    "songs": [{
+        "id": 1,
+        "title": "Blue Monday",
+        "artist": "Depeche Mode",
+        "release_date": "01/05/1984",
+        "price": "1.99"
+    }, 
+    {
+        "id": 2,
+        "title": "Freak Out",
+        "artist": "Le Chick",
+        "release_date": "01/05/1979",
+        "price": "0.99"
+    },
+    {
+        "id": 3,
+        "title": "Beat It",
+        "artist": "Michael Jackson",
+        "release_date": "01/05/1979",
+        "price": "0.99"
+    },
+    {
+        "id": 4,
+        "title": "Sea of Sin",
+        "artist": "DM",
+        "release_date": "01/05/1979",
+        "price": "0.99"
+    },
+    {
+        "id": 5,
+        "title": "Boys don't Cry",
+        "artist": "The Cure",
+        "release_date": "09/25/1988",
+        "price": "2.99"      
+    }
+    ]
+}
