@@ -1,4 +1,3 @@
 # jsSongLib
-Test song library - Using Sinon.js
-
+Test song library -
 
