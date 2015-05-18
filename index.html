@@ -10,42 +10,53 @@
   <script type="text/javascript" src="js/songlist.js"></script>
 </head>
 <body>
-  <h1>My song playlist</h1>
+  <div id="app">
 
-  <div>
-    <div id="songList"> 
-    <table id="songListTable" width="100%">
-      <tr class="header">
-       <td>Id</td>
-       <td>Title</td>
-       <td>Artist</td>
-       <td>Release Date</td>
-       <td>Price</td>
-       <td>Remove</td>
-      </tr>
-    </table>
-    <br>
-    <a href="#" id="addSongLink">Add song ... </a>
-  </div>
-  <hr>
-  <div id="addSongDiv"> 
+    <h1>My song playlist</h1>
+
     <div>
-      <label for="songName">Song Title</label>
-      <input type="text" id="songName"><br>
-
-      <label for="songArtist">Artist</label>
-      <input type="text" id="songArtist"><br>
-
-      <label for="rdate">Release Date</label>
-      <input type="text" id="rdate"><br>
-
-      <label for="price">Price ($)</label>
-      <input type="text" id="price"><br>
+      <div id="songList"> 
+      <table id="songListTable" width="100%">
+        <tr class="header">
+         <td>Id</td>
+         <td>Title</td>
+         <td>Artist</td>
+         <td>Release Date</td>
+         <td>Price</td>
+         <td>Edit</td>
+         <td>Remove</td>
+        </tr>
+      </table>
+      <br>
+      <a href="#" id="addSongLink">Add song ... </a>
     </div>
-    <div>
-      <input type="button" id="saveBtn" value="Save">
-      <input type="button" id="cancelBtn" value="Cancel">
+    <hr>
+    <div id="addSongDiv"> 
+      <div>
+        <label for="songId">Id</label>
+        <input type="text" id="songId" readonly="true"><br>
+
+        <label for="songName">Song Title</label>
+        <input type="text" id="songName"><br>
+
+        <label for="songArtist">Artist</label>
+        <input type="text" id="songArtist"><br>
+
+        <label for="rdate">Release Date</label>
+        <input type="text" id="rdate"><br>
+
+        <label for="price">Price ($)</label>
+        <input type="text" id="price"><br>
+      </div>
+      <div>
+        <input type="button" id="saveBtn" value="Save">
+        <input type="button" id="cancelBtn" value="Cancel">
+      </div>
     </div>
   </div>
+
+    <div id="messages"></div>
+  
+
 </body>
 </html>
